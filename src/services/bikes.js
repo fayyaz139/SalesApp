@@ -6,10 +6,10 @@ export const bikes = [
     url: "https://kawasaki-india.com/wp-content/uploads/2020/03/22EX650M_44SGN1DRF3CG_A-removebg-preview.png",
   },
   {
-    name: "Kawasaki",
-    model: "New Bike",
+    name: "KTM 200 Duke",
+    model: "KTM",
     price: "79 Lacs",
-    url: "https://kawasaki-india.com/wp-content/uploads/2020/03/22EX650M_44SGN1DRF3CG_A-removebg-preview.png",
+    url: "https://imgd.aeplcdn.com/310x174/bw/models/ktm-250-duke-bs-vi20200805125938.jpg?q=75",
   },
   {
     name: "Splender",
