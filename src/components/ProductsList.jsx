@@ -2,7 +2,7 @@ import { ProductItem } from "./ProductItem";
 import { products } from "../services/products";
 
 export const ProductsList = () => {
-  console.log(products);
+  //   console.log(products);;
   return (
     <div>
       <h1>Products List</h1>
