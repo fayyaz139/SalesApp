@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { BikeItem } from "./BikeItem";
 import { bikes } from "../services/bikes";
 import { Row, Col, Button } from "react-bootstrap";
@@ -10,6 +10,9 @@ export const BikeList = () => {
     const filteredBikes = bikes.filter((item) => item.name === txtSearch);
     txtSearch !== "" ? setFiltBike(filteredBikes) : setFiltBike(bikes);
   };
+  useEffect(()=>{
+
+  },[]);
   return (
     <div>
       <Row>
